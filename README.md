@@ -46,8 +46,7 @@ Exemplo:
 Exemplo:
 
 <head>
-
-    
+ 
 1- <style>
         h1 {
             color: red
@@ -67,3 +66,15 @@ Exemplo:
  <link rel="stylesheet" href="style.css">
 
 Este elemento <link> diz ao navegador que temos uma folha de estilo, usando o atributo 'rel', e a localização desse arquivo como valor do atributo 'href'.
+
+A regra é aberta com um seletor. Isso seleciona o elemento HTML que vamos estilizar. Neste caso, estamos estilizando títulos de nível um (<h1>).
+
+### 4) Múltiplos Seletores
+
+Você pode pode especificar múltiplos seletores, separando-os com virgula.
+
+Exemplo:
+
+h1, p {
+    color: red;
+}
